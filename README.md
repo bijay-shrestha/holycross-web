@@ -1,4 +1,14 @@
-A popular city hospital, named **HolyCross Medical Center (HCMC)**, has hired you to design and develop a simple web-based software solution for them, which they will be using to run part of their hospital operations. Specifically, the system will be used in collecting and managing data about their Patients. They want you to implement a basic web application for this purpose. Especially important to the Chief Medical Director of HCMC is the data that provides information about their Elderly Patients.
+## Software Engineering Problem-solving and Enterprise Web Application Development skills:
+
+*Note: For the tasks in this question, you are expected to take screenshot(s) of your result(s), save each into a .png or .jpg image file(s) and include these in your project in github. From your own solution, you are required to take each of the set of 3+1 evidential sample screenshots, which have been included below.*
+
+**Implementing an end-to-end, full-stack, data-driven web application
+(Time it took to complete while teaching/finalexam-revision coding: 10:30 – 11:45)**
+
+### Problem Statement
+
+
+A popular city hospital, named **HolyCross Medical Center (HCMC)**, has hired you to design and develop a simple web-based software solution for them, which they will be using to run part of their hospital operations. Specifically, the system will be used in collecting and managing data about their **Patient**s. They want you to implement a basic web application for this purpose. Especially important to the Chief Medical Director of HCMC is the data that provides information about their Elderly Patients.
 
 An Elderly Patient is any patient who is of age, 65 or older.
 

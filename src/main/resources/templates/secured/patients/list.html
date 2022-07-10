@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>HolyCross Patient website - Patients</title>
+    <style>
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        table th, table td {
+            border: 1px solid;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+<header th:replace="fragments/header :: header"></header>
+<main>
+    <h1>List of All Registered Patients</h1>
+    <div>
+        <p><a href="/holycross/patient/new">Add New Patient</a></p>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Patient Number</th>
+            <th>Full Names</th>
+            <th>Email</th>
+            <th>Contact Phone Number</th>
+            <th>Date of birth</th>
+            <th>OutPatient?</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="patient, counter : ${patients}">
+            <th th:text="${counter.count}+${'.'}"></th>
+            <td th:text="${patient.patientNumber}"></td>
+            <td th:text="${patient.fullNames}"></td>
+            <td th:text="${patient.emailAddress}"></td>
+            <td th:text="${patient.contactPhoneNumber}"></td>
+            <td th:text="${patient.dateOfBirth}"></td>
+            <td th:text="${patient.isAnOutPatient}"></td>
+        </tr>
+        </tbody>
+    </table>
+</main>
+</body>
+</html>

@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/holycross-db
+    username: holycross-db-user
+    password: holycross123
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: false
