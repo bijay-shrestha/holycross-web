@@ -4,7 +4,6 @@ import edu.miu.holycrossweb.exception.PatientDataNotFoundException;
 import edu.miu.holycrossweb.model.Patient;
 import edu.miu.holycrossweb.repository.PatientRepository;
 import edu.miu.holycrossweb.service.PatientService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

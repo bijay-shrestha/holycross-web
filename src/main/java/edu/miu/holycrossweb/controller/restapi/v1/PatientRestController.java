@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+import static edu.miu.holycrossweb.constant.PatientConstant.PATIENT_LIST;
 import static edu.miu.holycrossweb.constant.WebResourceKeyConstant.PATIENT_BASE;
-import static edu.miu.holycrossweb.constant.WebResourceKeyConstant.PATIENT_LIST;
 
 /**
  * @author bijayshrestha on 7/9/22

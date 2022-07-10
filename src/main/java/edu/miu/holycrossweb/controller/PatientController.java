@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import static edu.miu.holycrossweb.constant.WebResourceKeyConstant.*;
+import static edu.miu.holycrossweb.constant.PatientConstant.*;
+import static edu.miu.holycrossweb.constant.WebResourceKeyConstant.PATIENT_MVC_BASE;
 
 /**
  * @author bijayshrestha on 7/9/22
