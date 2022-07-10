@@ -38,4 +38,15 @@ You are expected to implement only the following *3 features* and use-cases:
 
 **3.**	Implement a RESTful Web API which returns the list of Patients data in JSON format, when invoked at the following URL endpoint: http://localhost:8080/hcmcpatientmgmt/api/patient/list
 
+### Solution [screenshots]
 
+<img width="1512" alt="1" src="https://user-images.githubusercontent.com/7867129/178126884-4c15af7e-ec35-40cf-a407-1383ea8a5d69.png">
+
+<img width="1512" alt="2" src="https://user-images.githubusercontent.com/7867129/178126890-c2638262-ce06-48ff-afb1-46fee0114aeb.png">
+
+<img width="1512" alt="3" src="https://user-images.githubusercontent.com/7867129/178126895-98633061-f22b-48f4-9a78-f971f9a88571.png">
+
+<img width="1512" alt="4" src="https://user-images.githubusercontent.com/7867129/178126899-3995920b-ee0c-40a1-898e-9bec978eaa48.png">
+
+
+## Happy Coding!
