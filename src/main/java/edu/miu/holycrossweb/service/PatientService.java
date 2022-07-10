@@ -1,5 +1,6 @@
 package edu.miu.holycrossweb.service;
 
+import edu.miu.holycrossweb.exception.PatientDataNotFoundException;
 import edu.miu.holycrossweb.model.Patient;
 
 import java.util.List;
@@ -9,7 +10,7 @@ import java.util.List;
  * @project holycross-web
  */
 public interface PatientService {
-    List<Patient> getAllPatients();
+    List<Patient> getAllPatients() throws PatientDataNotFoundException;
 
     void saveAllPatients(List<Patient> patients);
 }
